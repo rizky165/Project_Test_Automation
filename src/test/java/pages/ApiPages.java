@@ -10,13 +10,13 @@ import java.io.File;
 import java.util.List;
 
 import static helper.Models.*;
-import static org.assertj.core.api.Assertions.as;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ApiPages {
 
     String setURL, global_id;
     Response res;
+
     public void prepareforURL(String url){
         switch (url) {
             case "GET_LIST_USER":
@@ -33,7 +33,7 @@ public class ApiPages {
             default:
                 System.out.println("URL");
         }
-        System.out.println("Endpoint :" + setURL);
+        System.out.println("Valid url : " + setURL);
     }
 
     public void hitApiGetListUsers(){
