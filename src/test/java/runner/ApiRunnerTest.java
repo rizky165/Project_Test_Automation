@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
             plugin      = {"pretty","html:reports/cucumber","json:reports/cucumber.json"},
             glue        = {"stepDef"},
             features    = {"src/test/java/features"},
-            tags        = "@web or @api",
+            tags        = "@api",
             monochrome = true
     )
     public class ApiRunnerTest {

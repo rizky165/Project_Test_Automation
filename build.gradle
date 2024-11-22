@@ -10,16 +10,12 @@ repositories {
 }
 
 dependencies {
-    // Menggunakan BOM untuk mengelola versi JUnit secara konsisten
-    testImplementation platform('org.junit:junit-bom:5.8.1')
-    // Menambahkan engine JUnit Jupiter untuk menjalankan tes JUnit 5 (runtime only)
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    // Menambahkan API JUnit Jupiter untuk menulis tes menggunakan JUnit 5
     testImplementation 'org.junit.vintage:junit-vintage-engine:5.7.2'
 
-    // Menambahkan dependensi Cucumber untuk menulis tes dalam Java
+
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.12.0'
-    // Mengintegrasikan Cucumber dengan JUnit agar tes Cucumber dapat dijalankan sebagai tes JUnit
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.12.0'
 
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.3.0'
@@ -32,10 +28,10 @@ dependencies {
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
     testImplementation('io.github.bonigarcia:webdrivermanager:5.3.0')
 
-    implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
 
     implementation 'org.slf4j:slf4j-api:2.0.0' // Versi terbaru
     implementation 'org.slf4j:slf4j-simple:2.0.0' // Implementasi sederhana
+
 }
 
 test {
