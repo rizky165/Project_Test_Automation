@@ -11,11 +11,11 @@ repositories {
 
 dependencies {
     // Menggunakan BOM untuk mengelola versi JUnit secara konsisten
-    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation platform('org.junit:junit-bom:5.8.1')
     // Menambahkan engine JUnit Jupiter untuk menjalankan tes JUnit 5 (runtime only)
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     // Menambahkan API JUnit Jupiter untuk menulis tes menggunakan JUnit 5
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.7.2'
 
     // Menambahkan dependensi Cucumber untuk menulis tes dalam Java
     implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.12.0'

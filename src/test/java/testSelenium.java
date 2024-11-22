@@ -20,7 +20,7 @@ public class testSelenium {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         driver.get("https://www.demoblaze.com/");
-        Thread.sleep(5000);
+        Thread.sleep(500);
         driver.quit();
     }
 }
