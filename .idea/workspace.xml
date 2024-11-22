@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68bbb539-6646-4d84-9a78-8cba36428f98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ApiRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/ApiRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/ApiRunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSelenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,38 +49,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: api.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: web.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Filling the purchase form with only the credit card field filled.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Filling the purchase form with the empty field.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test Checkout item normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test Delete user normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test Get list user.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test Post Create new user.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test SignUp web normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test SignUp web random username and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test delete item on cart.executor&quot;: &quot;Debug&quot;,
-    &quot;Cucumber Java.Scenario: Test login invalid password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test login invalid username.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test login web normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test logout web normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test order item normal.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test previous and next button on homepage.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test send message to contact.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Final_Project [:io.cucumber.core.cli.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiRunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/RF/Java_Project/Belajar/Homework 19&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: api.executor": "Run",
+    "Cucumber Java.Feature: web.executor": "Run",
+    "Cucumber Java.Scenario: Filling the purchase form with only the credit card field filled.executor": "Run",
+    "Cucumber Java.Scenario: Filling the purchase form with the empty field.executor": "Run",
+    "Cucumber Java.Scenario: Test Checkout item normal.executor": "Run",
+    "Cucumber Java.Scenario: Test Delete user normal.executor": "Run",
+    "Cucumber Java.Scenario: Test Get list user.executor": "Run",
+    "Cucumber Java.Scenario: Test Post Create new user.executor": "Run",
+    "Cucumber Java.Scenario: Test SignUp web normal.executor": "Run",
+    "Cucumber Java.Scenario: Test SignUp web random username and password.executor": "Run",
+    "Cucumber Java.Scenario: Test delete item on cart.executor": "Debug",
+    "Cucumber Java.Scenario: Test login invalid password.executor": "Run",
+    "Cucumber Java.Scenario: Test login invalid username.executor": "Run",
+    "Cucumber Java.Scenario: Test login web normal.executor": "Run",
+    "Cucumber Java.Scenario: Test logout web normal.executor": "Run",
+    "Cucumber Java.Scenario: Test order item normal.executor": "Run",
+    "Cucumber Java.Scenario: Test previous and next button on homepage.executor": "Run",
+    "Cucumber Java.Scenario: Test send message to contact.executor": "Run",
+    "Gradle.Final_Project [:io.cucumber.core.cli.Main.main()].executor": "Run",
+    "JUnit.ApiRunner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/RF/Java_Project/Belajar/Test_Web_Automation-master",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Cucumber Java.Feature: web">
     <configuration name="Feature: api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
