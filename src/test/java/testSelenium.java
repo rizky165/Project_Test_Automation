@@ -11,7 +11,7 @@ public class testSelenium {
 
     public static void main(String[] args) throws InterruptedException{
         ChromeOptions options = new ChromeOptions();
-
+        options.addArguments("--headless");
         options.addArguments("--no--sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--remote--allow-origins");
