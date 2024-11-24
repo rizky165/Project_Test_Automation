@@ -107,10 +107,7 @@ public class WebPages {
     }
 
     public void userClickButtonSignUpButtonOnModal(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         driver.findElement(signup_button2).click();
-        Alert alert = driver.switchTo().alert();
-        driver.switchTo().alert().accept();
     }
 
     //random username

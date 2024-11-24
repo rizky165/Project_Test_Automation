@@ -8,6 +8,8 @@ Feature: Test Automation on Demoblaze
     And user input signup username "rizky123"
     And user input signup password "pattaya123"
     And user click button sign up button on modal
+    Then verify user will se popup message "This user already exist."
+
 
   @web
   Scenario: Test SignUp web random username and password
@@ -17,6 +19,8 @@ Feature: Test Automation on Demoblaze
     And user input signup random username
     And user input signup random password
     And user click button sign up button on modal
+    Then verify user will se popup message "Sign up successful."
+
 
   @web
   Scenario: Test login web normal
