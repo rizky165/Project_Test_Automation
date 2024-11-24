@@ -86,6 +86,7 @@ public class Utility {
     public static void startDriver(){
         ChromeOptions options = new ChromeOptions();
         //option addArguments("---headless---);
+        options.addArguments("--headless");
         options.addArguments("--no sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--remote-allow-origins=*");
