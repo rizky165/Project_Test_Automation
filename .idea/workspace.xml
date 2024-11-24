@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68bbb539-6646-4d84-9a78-8cba36428f98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/web.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/web.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebPages.java" afterDir="false" />
     </list>
@@ -166,6 +165,7 @@
     <configuration name="Scenario: Test SignUp web random username and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/web.feature" />
+      <option name="GLUE" value="stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Final_Project.test" />
       <option name="NAME_FILTER" value="^Test SignUp web random username and password$" />

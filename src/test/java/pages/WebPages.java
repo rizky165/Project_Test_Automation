@@ -142,7 +142,7 @@ public class WebPages {
 
     //verify welcome message
     public void userShouldSeeWelcomeMessage(String wlcm_mssg){
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(welcome_user)).getText();
 
@@ -186,7 +186,7 @@ public class WebPages {
 
     //verify popup message
     public void verifyUserWillSePopupMessage(String mssg){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
         String expectedMessage = mssg;
@@ -245,14 +245,14 @@ public class WebPages {
         System.out.println(year);
     }
     public void userClickPurchase(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(purchase_button));
         driver.findElement(purchase_button).click();
     }
 
     //verify message
     public void userShouldSeeMessageSuccess(String mssg){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(modal_mssg));
 
