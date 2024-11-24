@@ -4,27 +4,29 @@ import io.cucumber.java.*;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.AfterAll;
 
-import static helper.Utility.startDriver;
 import static helper.Utility.quitDriver;
+import static helper.Utility.startDriver;
+
 
 public class Hooks {
 
-     @BeforeAll
-    public static void setUp(){
-         System.out.println("Before All");
-     }
-     @AfterAll
-    public static void tearDown(){
-         System.out.println("After All");
-     }
+    @BeforeAll
+    public static void beforeall(){
+        System.out.println("Execute before");
+    }
 
-     @Before
+    @AfterAll
+    public static void afterall(){
+        System.out.println("Execute After");
+    }
+
+    @Before
     public void beforeTest(){
-         startDriver();
-     }
-     @After
+        startDriver();
+    }
+    @After
     public void afterTest() throws InterruptedException{
-         Thread.sleep(3000 );
-         quitDriver();
-     }
+        Thread.sleep(3000 );
+        quitDriver();
+    }
 }
